@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.generator.dao.bbstopicMapper">
+  <resultMap id="BaseResultMap" type="com.example.generator.entity.bbstopic">
+    <constructor>
+      <arg column="TID" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TSID" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TUID" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TEmotion" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="THead" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="TTopic" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="TTime" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="TClickCoount" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TFlag" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="topping" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TReplyCount" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TLastReplyUseID" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TLastReplayTime" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+    </constructor>
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.example.generator.entity.bbstopic">
+    <constructor>
+      <arg column="TID" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TSID" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TUID" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TEmotion" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="THead" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="TTopic" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="TTime" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="TClickCoount" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TFlag" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="topping" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TReplyCount" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TLastReplyUseID" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TLastReplayTime" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="TContents" javaType="java.lang.String" jdbcType="LONGVARCHAR" />
+    </constructor>
+  </resultMap>
+  <sql id="Blob_Column_List">
+    TContents
+  </sql>
+  <insert id="insert" parameterType="com.example.generator.entity.bbstopic">
+    insert into bbstopic (TID, TSID, TUID, 
+      TEmotion, THead, TTopic, 
+      TTime, TClickCoount, TFlag, 
+      topping, TReplyCount, TLastReplyUseID, 
+      TLastReplayTime, TContents)
+    values (#{tid,jdbcType=INTEGER}, #{tsid,jdbcType=INTEGER}, #{tuid,jdbcType=INTEGER}, 
+      #{temotion,jdbcType=INTEGER}, #{thead,jdbcType=VARCHAR}, #{ttopic,jdbcType=VARCHAR}, 
+      #{ttime,jdbcType=TIMESTAMP}, #{tclickcoount,jdbcType=INTEGER}, #{tflag,jdbcType=INTEGER}, 
+      #{topping,jdbcType=INTEGER}, #{treplycount,jdbcType=INTEGER}, #{tlastreplyuseid,jdbcType=INTEGER}, 
+      #{tlastreplaytime,jdbcType=TIMESTAMP}, #{tcontents,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.example.generator.entity.bbstopic">
+    insert into bbstopic
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="tid != null">
+        TID,
+      </if>
+      <if test="tsid != null">
+        TSID,
+      </if>
+      <if test="tuid != null">
+        TUID,
+      </if>
+      <if test="temotion != null">
+        TEmotion,
+      </if>
+      <if test="thead != null">
+        THead,
+      </if>
+      <if test="ttopic != null">
+        TTopic,
+      </if>
+      <if test="ttime != null">
+        TTime,
+      </if>
+      <if test="tclickcoount != null">
+        TClickCoount,
+      </if>
+      <if test="tflag != null">
+        TFlag,
+      </if>
+      <if test="topping != null">
+        topping,
+      </if>
+      <if test="treplycount != null">
+        TReplyCount,
+      </if>
+      <if test="tlastreplyuseid != null">
+        TLastReplyUseID,
+      </if>
+      <if test="tlastreplaytime != null">
+        TLastReplayTime,
+      </if>
+      <if test="tcontents != null">
+        TContents,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="tid != null">
+        #{tid,jdbcType=INTEGER},
+      </if>
+      <if test="tsid != null">
+        #{tsid,jdbcType=INTEGER},
+      </if>
+      <if test="tuid != null">
+        #{tuid,jdbcType=INTEGER},
+      </if>
+      <if test="temotion != null">
+        #{temotion,jdbcType=INTEGER},
+      </if>
+      <if test="thead != null">
+        #{thead,jdbcType=VARCHAR},
+      </if>
+      <if test="ttopic != null">
+        #{ttopic,jdbcType=VARCHAR},
+      </if>
+      <if test="ttime != null">
+        #{ttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="tclickcoount != null">
+        #{tclickcoount,jdbcType=INTEGER},
+      </if>
+      <if test="tflag != null">
+        #{tflag,jdbcType=INTEGER},
+      </if>
+      <if test="topping != null">
+        #{topping,jdbcType=INTEGER},
+      </if>
+      <if test="treplycount != null">
+        #{treplycount,jdbcType=INTEGER},
+      </if>
+      <if test="tlastreplyuseid != null">
+        #{tlastreplyuseid,jdbcType=INTEGER},
+      </if>
+      <if test="tlastreplaytime != null">
+        #{tlastreplaytime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="tcontents != null">
+        #{tcontents,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <resultMap id="BaseResultMap" type="com.example.generator.entity.bbstopic">
+    <constructor>
+      <idArg column="tid" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="tsid" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="tuid" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="temotion" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="thead" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="ttopic" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="ttime" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="tclickCoount" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="tflag" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="topping" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="treplyCount" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TLastReplyUseID" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TLastReplayTime" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+    </constructor>
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.example.generator.entity.bbstopic">
+    <constructor>
+      <idArg column="tid" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="tsid" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="tuid" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="temotion" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="thead" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="ttopic" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="ttime" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="tclickCoount" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="tflag" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="topping" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="treplyCount" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TLastReplyUseID" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="TLastReplayTime" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="tcontents" javaType="java.lang.String" jdbcType="LONGVARCHAR" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List">
+    tid, tsid, tuid, temotion, thead, ttopic, ttime, tclickCoount, tflag, topping, treplyCount, 
+    TLastReplyUseID, TLastReplayTime
+  </sql>
+  <sql id="Blob_Column_List">
+    tcontents
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from bbstopic
+    where tid = #{tid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from bbstopic
+    where tid = #{tid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.example.generator.entity.bbstopic">
+    insert into bbstopic (tid, tsid, tuid, 
+      temotion, thead, ttopic, 
+      ttime, tclickCoount, tflag, 
+      topping, treplyCount, TLastReplyUseID, 
+      TLastReplayTime, tcontents)
+    values (#{tid,jdbcType=INTEGER}, #{tsid,jdbcType=INTEGER}, #{tuid,jdbcType=INTEGER}, 
+      #{temotion,jdbcType=INTEGER}, #{thead,jdbcType=VARCHAR}, #{ttopic,jdbcType=VARCHAR}, 
+      #{ttime,jdbcType=TIMESTAMP}, #{tclickcoount,jdbcType=INTEGER}, #{tflag,jdbcType=INTEGER}, 
+      #{topping,jdbcType=INTEGER}, #{treplycount,jdbcType=INTEGER}, #{tlastreplyuseid,jdbcType=INTEGER}, 
+      #{tlastreplaytime,jdbcType=TIMESTAMP}, #{tcontents,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.example.generator.entity.bbstopic">
+    insert into bbstopic
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="tid != null">
+        tid,
+      </if>
+      <if test="tsid != null">
+        tsid,
+      </if>
+      <if test="tuid != null">
+        tuid,
+      </if>
+      <if test="temotion != null">
+        temotion,
+      </if>
+      <if test="thead != null">
+        thead,
+      </if>
+      <if test="ttopic != null">
+        ttopic,
+      </if>
+      <if test="ttime != null">
+        ttime,
+      </if>
+      <if test="tclickcoount != null">
+        tclickCoount,
+      </if>
+      <if test="tflag != null">
+        tflag,
+      </if>
+      <if test="topping != null">
+        topping,
+      </if>
+      <if test="treplycount != null">
+        treplyCount,
+      </if>
+      <if test="tlastreplyuseid != null">
+        TLastReplyUseID,
+      </if>
+      <if test="tlastreplaytime != null">
+        TLastReplayTime,
+      </if>
+      <if test="tcontents != null">
+        tcontents,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="tid != null">
+        #{tid,jdbcType=INTEGER},
+      </if>
+      <if test="tsid != null">
+        #{tsid,jdbcType=INTEGER},
+      </if>
+      <if test="tuid != null">
+        #{tuid,jdbcType=INTEGER},
+      </if>
+      <if test="temotion != null">
+        #{temotion,jdbcType=INTEGER},
+      </if>
+      <if test="thead != null">
+        #{thead,jdbcType=VARCHAR},
+      </if>
+      <if test="ttopic != null">
+        #{ttopic,jdbcType=VARCHAR},
+      </if>
+      <if test="ttime != null">
+        #{ttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="tclickcoount != null">
+        #{tclickcoount,jdbcType=INTEGER},
+      </if>
+      <if test="tflag != null">
+        #{tflag,jdbcType=INTEGER},
+      </if>
+      <if test="topping != null">
+        #{topping,jdbcType=INTEGER},
+      </if>
+      <if test="treplycount != null">
+        #{treplycount,jdbcType=INTEGER},
+      </if>
+      <if test="tlastreplyuseid != null">
+        #{tlastreplyuseid,jdbcType=INTEGER},
+      </if>
+      <if test="tlastreplaytime != null">
+        #{tlastreplaytime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="tcontents != null">
+        #{tcontents,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.generator.entity.bbstopic">
+    update bbstopic
+    <set>
+      <if test="tsid != null">
+        tsid = #{tsid,jdbcType=INTEGER},
+      </if>
+      <if test="tuid != null">
+        tuid = #{tuid,jdbcType=INTEGER},
+      </if>
+      <if test="temotion != null">
+        temotion = #{temotion,jdbcType=INTEGER},
+      </if>
+      <if test="thead != null">
+        thead = #{thead,jdbcType=VARCHAR},
+      </if>
+      <if test="ttopic != null">
+        ttopic = #{ttopic,jdbcType=VARCHAR},
+      </if>
+      <if test="ttime != null">
+        ttime = #{ttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="tclickcoount != null">
+        tclickCoount = #{tclickcoount,jdbcType=INTEGER},
+      </if>
+      <if test="tflag != null">
+        tflag = #{tflag,jdbcType=INTEGER},
+      </if>
+      <if test="topping != null">
+        topping = #{topping,jdbcType=INTEGER},
+      </if>
+      <if test="treplycount != null">
+        treplyCount = #{treplycount,jdbcType=INTEGER},
+      </if>
+      <if test="tlastreplyuseid != null">
+        TLastReplyUseID = #{tlastreplyuseid,jdbcType=INTEGER},
+      </if>
+      <if test="tlastreplaytime != null">
+        TLastReplayTime = #{tlastreplaytime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="tcontents != null">
+        tcontents = #{tcontents,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where tid = #{tid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.example.generator.entity.bbstopic">
+    update bbstopic
+    set tsid = #{tsid,jdbcType=INTEGER},
+      tuid = #{tuid,jdbcType=INTEGER},
+      temotion = #{temotion,jdbcType=INTEGER},
+      thead = #{thead,jdbcType=VARCHAR},
+      ttopic = #{ttopic,jdbcType=VARCHAR},
+      ttime = #{ttime,jdbcType=TIMESTAMP},
+      tclickCoount = #{tclickcoount,jdbcType=INTEGER},
+      tflag = #{tflag,jdbcType=INTEGER},
+      topping = #{topping,jdbcType=INTEGER},
+      treplyCount = #{treplycount,jdbcType=INTEGER},
+      TLastReplyUseID = #{tlastreplyuseid,jdbcType=INTEGER},
+      TLastReplayTime = #{tlastreplaytime,jdbcType=TIMESTAMP},
+      tcontents = #{tcontents,jdbcType=LONGVARCHAR}
+    where tid = #{tid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.example.generator.entity.bbstopic">
+    update bbstopic
+    set tsid = #{tsid,jdbcType=INTEGER},
+      tuid = #{tuid,jdbcType=INTEGER},
+      temotion = #{temotion,jdbcType=INTEGER},
+      thead = #{thead,jdbcType=VARCHAR},
+      ttopic = #{ttopic,jdbcType=VARCHAR},
+      ttime = #{ttime,jdbcType=TIMESTAMP},
+      tclickCoount = #{tclickcoount,jdbcType=INTEGER},
+      tflag = #{tflag,jdbcType=INTEGER},
+      topping = #{topping,jdbcType=INTEGER},
+      treplyCount = #{treplycount,jdbcType=INTEGER},
+      TLastReplyUseID = #{tlastreplyuseid,jdbcType=INTEGER},
+      TLastReplayTime = #{tlastreplaytime,jdbcType=TIMESTAMP}
+    where tid = #{tid,jdbcType=INTEGER}
+  </update>
+</mapper>

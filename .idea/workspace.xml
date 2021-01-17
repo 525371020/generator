@@ -4,7 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea0a869-2d85-4203-9523-f00f684c5c3d" name="默认的" comment="" />
+    <list default="true" id="fea0a869-2d85-4203-9523-f00f684c5c3d" name="默认的" comment="更新">
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/.idea/SpringBootDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/generator/controller/controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/generator/dao/bbsadminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/generator/entity/bbsadmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/bbsadminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/generator/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/generator/dao/bbsadminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/generator/dao/controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/generator/entity/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/generator/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/generator/entity/bbsadmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/bbsadminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/generator/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gitOne/.idea/gitOne.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/generator/dao/bbstopicMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/generator/entity/bbstopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/bbstopicMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/generator/GeneratorApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/generator/GeneratorApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootMybatis/src/main/java/com/zcz/controller/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootMybatis/src/main/java/com/zcz/controller/TopicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootMybatis/src/main/java/com/zcz/service/TopicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootMybatis/src/main/java/com/zcz/service/TopicService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +62,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="generatorConfig" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -43,27 +95,62 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/libraries" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springbootMybatis" />
+    <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\MyGit\generator\.idea\libraries" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.GeneratorApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorApplicationTests.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.generator.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.generator" />
+      <option name="MAIN_CLASS_NAME" value="com.example.generator.GeneratorApplicationTests" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.generator.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.generator" />
+      <option name="MAIN_CLASS_NAME" value="com.example.generator.test" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,6 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.testUser" />
+        <item itemvalue="JUnit.GeneratorApplicationTests.testUser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,68 +180,105 @@
       <workItem from="1610805592608" duration="1801000" />
       <workItem from="1610807598771" duration="1780000" />
       <workItem from="1610809413618" duration="1340000" />
+      <workItem from="1610865587575" duration="13258000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610810032448">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1610873015230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610810032448" />
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom" timestamp="1610811032464">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610873015230" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610869546399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610811032464" />
-    <state width="1877" height="208" key="GridCell.Tab.0.center" timestamp="1610811032464">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610869546399" />
+    <state x="867" y="201" key="#检查" timestamp="1610871852412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610811032464" />
-    <state width="1877" height="208" key="GridCell.Tab.0.left" timestamp="1610811032463">
+    <state x="867" y="201" key="#检查/0.0.1920.1040@0.0.1920.1040" timestamp="1610871852412" />
+    <state x="670" y="90" key="CommitChangelistDialog2" timestamp="1610882294889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610811032463" />
-    <state width="1877" height="208" key="GridCell.Tab.0.right" timestamp="1610811032464">
+    <state x="670" y="90" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610882294889" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1610873388252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610811032464" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1610809384644">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610873388252" />
+    <state x="838" y="442" key="Github.CreateGistDialog" timestamp="1610876181747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610809384644" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1610809384644">
+    <state x="838" y="442" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610876181747" />
+    <state x="420" y="420" key="Github.ShareDialog" timestamp="1610877372310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610809384644" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1610809384644">
+    <state x="420" y="420" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610877372310" />
+    <state width="781" height="356" key="GridCell.Tab.0.bottom" timestamp="1610882295062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610809384644" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1610809384644">
+    <state width="781" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610882295062" />
+    <state width="781" height="356" key="GridCell.Tab.0.center" timestamp="1610882295061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610809384644" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1610809384644">
+    <state width="781" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610882295061" />
+    <state width="781" height="356" key="GridCell.Tab.0.left" timestamp="1610882295060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610809384644" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1610809384644">
+    <state width="781" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610882295060" />
+    <state width="781" height="356" key="GridCell.Tab.0.right" timestamp="1610882295061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610809384644" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1610809384644">
+    <state width="781" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610882295061" />
+    <state width="781" height="356" key="GridCell.Tab.1.bottom" timestamp="1610882295062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610809384644" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1610809384644">
+    <state width="781" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610882295062" />
+    <state width="781" height="356" key="GridCell.Tab.1.center" timestamp="1610882295062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610809384644" />
-    <state x="121" y="263" key="SettingsEditor" timestamp="1610809912543">
+    <state width="781" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610882295062" />
+    <state width="781" height="356" key="GridCell.Tab.1.left" timestamp="1610882295062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="121" y="263" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610809912543" />
+    <state width="781" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610882295062" />
+    <state width="781" height="356" key="GridCell.Tab.1.right" timestamp="1610882295062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="781" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610882295062" />
+    <state width="505" height="346" key="GridCell.Tab.2.bottom" timestamp="1610877813517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="505" height="346" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610877813517" />
+    <state width="505" height="346" key="GridCell.Tab.2.center" timestamp="1610877813517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="505" height="346" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610877813517" />
+    <state width="505" height="346" key="GridCell.Tab.2.left" timestamp="1610877813516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="505" height="346" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610877813516" />
+    <state width="505" height="346" key="GridCell.Tab.2.right" timestamp="1610877813517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="505" height="346" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610877813517" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1610866287189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610866287189" />
+    <state x="67" y="211" key="SettingsEditor" timestamp="1610877248206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="67" y="211" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610877248206" />
+    <state x="157" y="247" key="Vcs.Push.Dialog.v2" timestamp="1610882178783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="157" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610882178783" />
   </component>
 </project>

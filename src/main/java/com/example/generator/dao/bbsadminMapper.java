@@ -2,7 +2,6 @@ package com.example.generator.dao;
 
 import com.example.generator.entity.bbsadmin;
 import org.apache.ibatis.annotations.Mapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Mapper

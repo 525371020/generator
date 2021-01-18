@@ -1,8 +1,11 @@
 package com.example.generator.entity;
 
+import org.springframework.data.annotation.Id;
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class bbsadmin {
+public class bbsadmin implements Serializable {
     private Integer aid;
 
     private String aname;
